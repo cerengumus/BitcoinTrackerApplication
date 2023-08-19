@@ -1,0 +1,78 @@
+package com.cerengumus.bitcointrackerapp.utils
+
+import android.content.Context
+import android.content.Intent
+import android.graphics.Color
+import android.os.Build
+import android.util.Log
+import android.view.View
+import android.view.WindowManager
+import android.view.animation.Animation
+import android.view.animation.AnimationUtils
+import androidx.core.content.ContextCompat.startActivity
+import androidx.lifecycle.LifecycleOwner
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.Observer
+import com.cerengumus.bitcointrackerapp.MainActivity
+import com.cerengumus.bitcointrackerapp.R
+
+fun <T> MutableLiveData<T>.observe(lifecycleOwner: LifecycleOwner, observer: Observer<T>) {
+    observe(lifecycleOwner, object : Observer<T> {
+        override fun onChanged(value: T) {
+            observer.onChanged(value)
+            if (value != null)
+                removeObserver(this)
+        }
+    })
+}
+object CreateAnim {
+    fun createAnimation(applicationContext: Context, animFile: Int): Animation {
+        return AnimationUtils.loadAnimation(
+            applicationContext,
+            animFile
+        )
+    }
+}
+interface OnAnimationListener {
+    fun onRepeat()
+    fun onEnd()
+    fun onStartAnim()
+}
+
+class StarterAnimation(
+    private val resList: ArrayList<Animation>,
+    private val onAnimationListener: OnAnimationListener
+) {
+
+    private var animateCount = 0
+    fun startSequentialAnimation (
+        view: View
+    ) {
+        if (resList.isNotEmpty()) {
+            animateView(resList[0], view)
+        } else {
+            Log.d("SplashAnimation",
+                "Oops!, looks like you forgot to put animation list as parameter!")
+        }
+    }
+
+    private fun animateView(anim: Animation?, view: View) {
+        anim?.setAnimationListener(object : Animation.AnimationListener {
+            override fun onAnimationStart(animation: Animation) { onAnimationListener.onStartAnim() }
+            override fun onAnimationEnd(animation: Animation) {
+                if (animateCount < resList.size) {
+                    animateView(resList[animateCount], view)
+                    animateCount++
+                } else {
+                    onAnimationListener.onEnd()
+                    animateCount = 0
+                }
+            }
+            override fun onAnimationRepeat(animation: Animation) { onAnimationListener.onRepeat() }
+        })
+        view.startAnimation(anim)
+    }
+}
+
+
+
