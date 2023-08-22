@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "984826870390",
+    "project_id": "bitcointrackerapp-9e828",
+    "storage_bucket": "bitcointrackerapp-9e828.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984826870390:android:c6d3906e7deed4c8d63d57",
+        "android_client_info": {
+          "package_name": "com.cerengumus.bitcointrackerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984826870390-rsqifn50ook063fa223loj0lb5iekkvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAt0kWBpis_QgZHRdTeGtyLHCIddyiUINM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984826870390-rsqifn50ook063fa223loj0lb5iekkvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

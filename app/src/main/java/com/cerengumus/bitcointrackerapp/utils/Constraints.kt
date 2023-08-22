@@ -1,20 +1,22 @@
 package com.cerengumus.bitcointrackerapp.utils
 
 import android.content.Context
-import android.content.Intent
-import android.graphics.Color
-import android.os.Build
+import android.net.ConnectivityManager
+import android.net.Network
+import android.net.NetworkCapabilities
 import android.util.Log
 import android.view.View
-import android.view.WindowManager
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
-import androidx.core.content.ContextCompat.startActivity
+import android.widget.ImageView
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
-import com.cerengumus.bitcointrackerapp.MainActivity
+import java.text.DecimalFormat
+import com.bumptech.glide.Glide
 import com.cerengumus.bitcointrackerapp.R
+import java.io.IOException
+import kotlin.collections.ArrayList
 
 fun <T> MutableLiveData<T>.observe(lifecycleOwner: LifecycleOwner, observer: Observer<T>) {
     observe(lifecycleOwner, object : Observer<T> {
@@ -72,6 +74,54 @@ class StarterAnimation(
         })
         view.startAnimation(anim)
     }
+}
+fun String?.emptyIfNull(): String {
+    return this ?: ""
+}
+
+fun String?.trimParanthesis(): String {
+    return this?.replace(Regex("[()]"), "") ?: ""
+}
+
+
+fun Double?.dollarString(): String {
+    return this?.let {
+        val numberFormat = DecimalFormat("#,##0.00")
+        "US$ ${numberFormat.format(this)}"
+    } ?: ""
+}
+
+object ImageLoader {
+    //Load image with Glide
+    fun loadImage(
+        view: ImageView,
+        url: String,
+        placeholder: Int = R.drawable.ic_baseline_image_24
+    ) {
+        Glide.with(view)
+            .load(url)
+            .placeholder(placeholder)
+            .error(placeholder)
+            .fallback(placeholder)
+            .into(view)
+    }
+}
+fun Context.isConnectedToInternet(): Boolean {
+    val cm = getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+    val networks: Array<Network> = cm.allNetworks
+    var hasInternet = false
+    if (networks.isNotEmpty()) {
+        for (network in networks) {
+            val nc = cm.getNetworkCapabilities(network)
+            if (nc!!.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET)) hasInternet = true
+        }
+    }
+    return hasInternet
+}
+class NoConnectivityException(private val title: String = "") : IOException() {
+
+    override val message: String?
+        get() = title
 }
 
 
