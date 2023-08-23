@@ -32,34 +32,4 @@ object FirebaseUserManager {
             }
         }
     }
-
-    suspend fun addToFavoriteList(coinId: String): Boolean {
-        return withContext(Dispatchers.IO) {
-            try {
-                favorites.add(coinId)
-                val data = HashMap<String, List<String>>()
-                data["favorites"] = favorites
-                userRef.set(data)
-                true
-            } catch (e: Exception) {
-                e.printStackTrace()
-                false
-            }
-        }
-    }
-
-    suspend fun removeFromFavoriteList(coinId: String): Boolean {
-        return withContext(Dispatchers.IO) {
-            try {
-                favorites.remove(coinId)
-                val data = HashMap<String, List<String>>()
-                data["favorites"] = favorites
-                userRef.set(data)
-                true
-            } catch (e: Exception) {
-                e.printStackTrace()
-                false
-            }
-        }
-    }
 }

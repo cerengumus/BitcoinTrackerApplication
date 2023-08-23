@@ -7,7 +7,7 @@ import com.cerengumus.bitcointrackerapp.data.FirebaseUserManager
 import com.cerengumus.bitcointrackerapp.data.local.database.CoinsDatabase
 import com.cerengumus.bitcointrackerapp.data.local.database.CoinsListDao
 import com.cerengumus.bitcointrackerapp.data.local.database.DB.DATABASE_NAME
-import com.cerengumus.bitcointrackerapp.data.repository.CoinsListRepository
+import com.cerengumus.bitcointrackerapp.data.repository.BitcoinTrackerRepository
 import com.cerengumus.bitcointrackerapp.di.createOkHttpClient
 import com.cerengumus.bitcointrackerapp.ui.favourite.FavouriteScreenViewModel
 import com.cerengumus.bitcointrackerapp.ui.login.LoginScreenViewModel
@@ -27,7 +27,7 @@ val repositoryModule = module {
     fun provideCoinDao(db: CoinsDatabase): CoinsListDao {
         return db.coinsListDao()
     }
-    single { CoinsListRepository(get(), provideCoinDao(get())) }
+    single { BitcoinTrackerRepository(get(), provideCoinDao(get())) }
 }
 val databaseModule = module {
 

@@ -1,6 +1,7 @@
 package com.cerengumus.bitcointrackerapp.data.repository
 
 import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
 import com.cerengumus.bitcointrackerapp.api.ApiInterface
 import com.cerengumus.bitcointrackerapp.api.Resource
 import com.cerengumus.bitcointrackerapp.data.local.database.CoinsListDao
@@ -9,15 +10,12 @@ import com.cerengumus.bitcointrackerapp.utils.GENERIC_ERROR
 import retrofit2.Response
 import java.util.*
 
-class CoinsListRepository(
+class BitcoinTrackerRepository(
     private val apiInterface: ApiInterface,
     private val coinsListDao: CoinsListDao
 ) {
-    private var timeLoadedAt: Long = 0
     val allCoinsLD = coinsListDao.coinsList()
     val favoriteCoins: LiveData<List<CoinsListEntity>> = coinsListDao.favouriteCoins()
-
-    suspend fun favoriteSymbols(): List<String> = coinsListDao.favouriteSymbols()
 
     suspend fun coinsList(targetCur: String) {
             var list = getResult {
@@ -45,38 +43,6 @@ class CoinsListRepository(
         } else {
                 Resource.Error(GENERIC_ERROR)
         }
-        /*when (val result = getResult {
-            apiInterface.coinsList(targetCur) }) {
-            is Resource.Success -> {
-                if (result.succeeded) {
-                    val favSymbols = coinsListDao.favouriteSymbols()
-
-                    val customStockList = result.data.let {
-                        it.filter { item -> item.symbol.isNullOrEmpty().not() }
-                            .map { item ->
-                                CoinsListEntity(
-                                    item.symbol ?: "",
-                                    item.id,
-                                    item.name,
-                                    item.price,
-                                    item.changePercent,
-                                    item.image,
-                                    favSymbols.contains(item.symbol)
-                                )
-                            }
-                    }
-
-                    coinsListDao.insert(customStockList)
-
-                    timeLoadedAt = Date().time
-
-                    Resource.Success(true)
-                } else {
-                    Resource.Error(GENERIC_ERROR)
-                }
-            }
-            else -> result as Resource.Error
-        }*/
     }
 
     suspend fun updateFavouriteStatus(symbol: String): Resource<CoinsListEntity> {
@@ -100,11 +66,16 @@ class CoinsListRepository(
             Resource.Success(item)
         } ?: Resource.Error(GENERIC_ERROR)
     }
-
-    fun loadData(): Boolean {
-        val lastLoadedDate = timeLoadedAt
-        val currentDataMillis = Date().time
-        return currentDataMillis - lastLoadedDate > 10 * 1000
+    fun temp(): LiveData<List<CoinsListEntity>> {
+        val _favouriteStock = MutableLiveData<List<CoinsListEntity>>()
+        var tempList: List<CoinsListEntity> = listOf()
+        for (i in 10 downTo 0){
+            tempList += CoinsListEntity("","{@i}","coin",3.4,3.4,"",false)
+        }
+        tempList.let {
+            _favouriteStock.value = it
+        }
+        return _favouriteStock
     }
 
     suspend fun <T> getResult(call: suspend () -> Response<T>): Resource<T> {

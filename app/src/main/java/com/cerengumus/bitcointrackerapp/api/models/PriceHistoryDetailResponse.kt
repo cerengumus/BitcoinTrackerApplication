@@ -2,6 +2,6 @@ package com.cerengumus.bitcointrackerapp.api.models
 
 
 
-data class HistoricalPriceResponse(
+data class PriceHistoryDetailResponse(
     val prices: List<DoubleArray>
 )

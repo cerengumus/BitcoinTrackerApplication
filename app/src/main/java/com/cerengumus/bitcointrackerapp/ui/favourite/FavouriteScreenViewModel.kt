@@ -6,10 +6,10 @@ import androidx.lifecycle.viewModelScope
 import com.cerengumus.bitcointrackerapp.api.Resource
 import com.cerengumus.bitcointrackerapp.core.common.BaseViewModel
 import com.cerengumus.bitcointrackerapp.data.local.database.CoinsListEntity
-import com.cerengumus.bitcointrackerapp.data.repository.CoinsListRepository
+import com.cerengumus.bitcointrackerapp.data.repository.BitcoinTrackerRepository
 import kotlinx.coroutines.launch
 
-class FavouriteScreenViewModel (private val repository: CoinsListRepository) :
+class FavouriteScreenViewModel (private val repository: BitcoinTrackerRepository) :
     BaseViewModel()  {
 
     val favoriteCoinsList = repository.favoriteCoins

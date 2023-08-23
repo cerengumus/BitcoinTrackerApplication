@@ -1,7 +1,7 @@
 package com.cerengumus.bitcointrackerapp.api
 
 import com.cerengumus.bitcointrackerapp.api.models.Coin
-import com.cerengumus.bitcointrackerapp.api.models.HistoricalPriceResponse
+import com.cerengumus.bitcointrackerapp.api.models.PriceHistoryDetailResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Path
@@ -20,6 +20,6 @@ interface ApiInterface {
         @Path("id") id: String,
         @Query("vs_currency") targetCurrency: String,
         @Query("days") days: Int
-    ): Response<HistoricalPriceResponse>
+    ): Response<PriceHistoryDetailResponse>
 
 }

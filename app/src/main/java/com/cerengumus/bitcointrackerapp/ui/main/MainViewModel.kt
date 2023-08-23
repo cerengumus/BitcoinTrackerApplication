@@ -6,13 +6,13 @@ import androidx.lifecycle.viewModelScope
 import com.cerengumus.bitcointrackerapp.api.Resource
 import com.cerengumus.bitcointrackerapp.core.common.BaseViewModel
 import com.cerengumus.bitcointrackerapp.data.local.database.CoinsListEntity
-import com.cerengumus.bitcointrackerapp.data.repository.CoinsListRepository
+import com.cerengumus.bitcointrackerapp.data.repository.BitcoinTrackerRepository
 import com.cerengumus.bitcointrackerapp.utils.Event
 import com.cerengumus.bitcointrackerapp.utils.FETCH_INTERVAL
 import kotlinx.coroutines.launch
 import java.util.*
 
-class MainViewModel (private val repository: CoinsListRepository) :
+class MainViewModel (private val repository: BitcoinTrackerRepository) :
     BaseViewModel() {
 
     val coinsListData = repository.allCoinsLD
@@ -34,6 +34,7 @@ class MainViewModel (private val repository: CoinsListRepository) :
     }
 
     fun loadCoinsFromApi(showBusy: Boolean = false,targetCur: String = "usd") {
+
             viewModelScope.launch {
                 if (showBusy) {
                     _isLoading.value = true
