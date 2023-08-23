@@ -11,7 +11,6 @@ import com.cerengumus.bitcointrackerapp.R
 import com.cerengumus.bitcointrackerapp.adapters.CoinsListAdapter
 import com.cerengumus.bitcointrackerapp.adapters.OnItemClickCallback
 import com.cerengumus.bitcointrackerapp.core.common.MainNavigationFragment
-import com.cerengumus.bitcointrackerapp.data.local.database.CoinsListEntity
 import com.cerengumus.bitcointrackerapp.databinding.FragmentMainBinding
 
 class MainFragment : MainNavigationFragment(), OnItemClickCallback {
@@ -29,13 +28,14 @@ class MainFragment : MainNavigationFragment(), OnItemClickCallback {
     ): View? {
         _binding = FragmentMainBinding.inflate(inflater)
         viewModel.loadCoinsFromApi()
+        observeViewModel()
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         initializeViews()
-        observeViewModel()
+
     }
 
     override fun initializeViews() {

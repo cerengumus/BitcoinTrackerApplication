@@ -1,10 +1,8 @@
-package com.cerengumus.bitcointrackerapp.data.repository.coinsList
+package com.cerengumus.bitcointrackerapp.data.repository
 
-import com.cerengumus.bitcointrackerapp.R
+import androidx.lifecycle.LiveData
 import com.cerengumus.bitcointrackerapp.api.ApiInterface
 import com.cerengumus.bitcointrackerapp.api.Resource
-import com.cerengumus.bitcointrackerapp.api.models.Coin
-import com.cerengumus.bitcointrackerapp.api.succeeded
 import com.cerengumus.bitcointrackerapp.data.local.database.CoinsListDao
 import com.cerengumus.bitcointrackerapp.data.local.database.CoinsListEntity
 import com.cerengumus.bitcointrackerapp.utils.GENERIC_ERROR
@@ -17,6 +15,9 @@ class CoinsListRepository(
 ) {
     private var timeLoadedAt: Long = 0
     val allCoinsLD = coinsListDao.coinsList()
+    val favoriteCoins: LiveData<List<CoinsListEntity>> = coinsListDao.favouriteCoins()
+
+    suspend fun favoriteSymbols(): List<String> = coinsListDao.favouriteSymbols()
 
     suspend fun coinsList(targetCur: String) {
             var list = getResult {
@@ -120,4 +121,5 @@ class CoinsListRepository(
             return error(e.message ?: e.toString())
         }
     }
+
 }

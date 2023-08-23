@@ -6,11 +6,9 @@ import androidx.lifecycle.viewModelScope
 import com.cerengumus.bitcointrackerapp.api.Resource
 import com.cerengumus.bitcointrackerapp.core.common.BaseViewModel
 import com.cerengumus.bitcointrackerapp.data.local.database.CoinsListEntity
-import com.cerengumus.bitcointrackerapp.data.repository.coinsList.CoinsListRepository
+import com.cerengumus.bitcointrackerapp.data.repository.CoinsListRepository
 import com.cerengumus.bitcointrackerapp.utils.Event
 import com.cerengumus.bitcointrackerapp.utils.FETCH_INTERVAL
-import com.cerengumus.bitcointrackerapp.utils.NoConnectivityException
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.util.*
 

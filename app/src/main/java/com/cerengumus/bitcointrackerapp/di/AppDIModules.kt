@@ -7,9 +7,8 @@ import com.cerengumus.bitcointrackerapp.data.FirebaseUserManager
 import com.cerengumus.bitcointrackerapp.data.local.database.CoinsDatabase
 import com.cerengumus.bitcointrackerapp.data.local.database.CoinsListDao
 import com.cerengumus.bitcointrackerapp.data.local.database.DB.DATABASE_NAME
-import com.cerengumus.bitcointrackerapp.data.repository.coinsList.CoinsListRepository
+import com.cerengumus.bitcointrackerapp.data.repository.CoinsListRepository
 import com.cerengumus.bitcointrackerapp.di.createOkHttpClient
-import com.cerengumus.bitcointrackerapp.ui.detail.DetailScreenViewModel
 import com.cerengumus.bitcointrackerapp.ui.favourite.FavouriteScreenViewModel
 import com.cerengumus.bitcointrackerapp.ui.login.LoginScreenViewModel
 import com.cerengumus.bitcointrackerapp.ui.main.MainViewModel
@@ -87,12 +86,7 @@ val splashViewModelModule = module {
 }
 val favouriteViewModelModule = module {
     viewModel {
-        FavouriteScreenViewModel()
-    }
-}
-val detailViewModelModule = module {
-    viewModel {
-        DetailScreenViewModel()
+        FavouriteScreenViewModel(get())
     }
 }
 val loginViewModelModule = module {
@@ -108,7 +102,6 @@ val modules = listOf(
     splashViewModelModule,
     loginViewModelModule,
     mainViewModelModule,
-    detailViewModelModule,
     favouriteViewModelModule,
     repositoryModule,
     databaseModule,
