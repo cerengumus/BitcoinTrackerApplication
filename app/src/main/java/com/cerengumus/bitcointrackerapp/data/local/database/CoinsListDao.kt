@@ -8,19 +8,19 @@ interface CoinsListDao {
 
     @Query("SELECT * FROM coins_list")
     suspend fun getCoinInfoList(): List<CoinsListEntity>
-    //Returns all stocks
+    //Returns all coins
     @Query("Select * from coins_list")
     fun coinsList(): LiveData<List<CoinsListEntity>>
 
-    //Returns stocks based on symbol
+    //Returns coins based on symbol
     @Query("Select * from coins_list where symbol = :symbol")
     suspend fun projectFromSymbol(symbol: String): CoinsListEntity?
 
-    //Returns stocks livedata based on symbol
+    //Returns coins livedata based on symbol
     @Query("Select * from coins_list where symbol = :symbol")
     fun projectLiveDataFromSymbol(symbol: String): LiveData<CoinsListEntity>
 
-    //Retruns all favourite stocks
+    //Retruns all favourite coins
     @Query("Select * from coins_list where isFavourite = 1")
     fun favouriteCoins(): LiveData<List<CoinsListEntity>>
 
@@ -30,7 +30,7 @@ interface CoinsListDao {
 
     //Inserts data. If row already exists, replace the row
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insert(stockList: List<CoinsListEntity>)
+    suspend fun insert(coinList: List<CoinsListEntity>)
 
     //Update the row
     @Update

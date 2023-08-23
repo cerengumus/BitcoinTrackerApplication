@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="CoinCardViewStyle" parent="Widget.MaterialComponents.CardView">
-        <item name="android:clickable">true</item>
-        <item name="android:foreground">?selectableItemBackground</item>
-        <item name="cardCornerRadius">0dp</item>
-        <item name="cardElevation">8dp</item>
-    </style>
-    <style name="SmallTextView" parent="">
-        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Subtitle2
-        </item>
-        <item name="android:textColor">@color/white</item>
-    </style>
-    <style name="CaptionTextView" parent="">
-        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Caption
-        </item>
-        <item name="android:textColor">@color/grayLight</item>
-    </style>
-    <style name="PercentageTextView" parent="">
-        <item name="android:textColor">@color/white</item>
-        <item name="android:layout_width">80dp</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:paddingTop">8dp</item>
-        <item name="android:paddingBottom">8dp</item>
-        <item name="android:gravity">center</item>
-        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Subtitle2
-        </item>
-    </style>
+
     <style name="Widget.Custom.Toolbar" parent="Widget.MaterialComponents.Toolbar">
         <item name="android:paddingEnd">8dp</item>
         <item name="contentInsetStart">16dp</item>
@@ -45,10 +20,6 @@
         <item name="android:textColor">@color/default_text_color</item>
     </style>
 
-    <style name="TextAppearance.Custom.H1.Bold" parent="@style/TextAppearance.Custom.H1">
-        <item name="android:textStyle">bold</item>
-    </style>
-
     <style name="TextAppearance.Custom.H2" parent="@style/TextAppearance.MaterialComponents.Headline2">
         <item name="android:textSize">@dimen/heading2_text_size</item>
         <item name="android:textColor">@color/default_text_color</item>
@@ -63,21 +34,9 @@
         <item name="android:textColor">@color/default_text_color</item>
     </style>
 
-    <style name="TextAppearance.Custom.H3.Bold" parent="@style/TextAppearance.Custom.H3">
-        <item name="android:textStyle">bold</item>
-    </style>
-
     <style name="TextAppearance.Custom.Default" parent="@style/TextAppearance.MaterialComponents.Body1">
         <item name="android:textSize">@dimen/default_text_size</item>
         <item name="android:textColor">@color/default_text_color</item>
-    </style>
-
-    <style name="TextAppearance.Custom.Default.Bold" parent="@style/TextAppearance.Custom.Default">
-        <item name="android:textStyle">bold</item>
-    </style>
-
-    <style name="TextAppearance.Custom.Default.Italic" parent="@style/TextAppearance.Custom.Default">
-        <item name="android:textStyle">italic</item>
     </style>
 
     <style name="TextAppearance.Custom.Toolbar" parent="@style/TextAppearance.MaterialComponents.Body1">

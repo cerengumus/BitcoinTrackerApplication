@@ -12,10 +12,10 @@ interface ApiInterface {
     @GET("coins/list")
     suspend fun getCoinInfoList(): List<Coin>
 
-    @GET(EndPoints.COINS_LIST)
+    @GET(ServiceEndPoints.COINS_LIST)
     suspend fun coinsList(@Query("vs_currency") targetCurrency: String): Response<List<Coin>>
 
-    @GET(EndPoints.COINS)
+    @GET(ServiceEndPoints.COINS)
     suspend fun historicalPrice(
         @Path("id") id: String,
         @Query("vs_currency") targetCurrency: String,

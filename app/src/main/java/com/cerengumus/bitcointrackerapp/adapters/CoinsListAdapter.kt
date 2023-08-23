@@ -10,7 +10,6 @@ import com.cerengumus.bitcointrackerapp.util.UIHelper
 import com.cerengumus.bitcointrackerapp.utils.ImageLoader
 import com.cerengumus.bitcointrackerapp.utils.dollarString
 import com.cerengumus.bitcointrackerapp.utils.emptyIfNull
-import java.util.*
 import kotlin.collections.ArrayList
 
 interface OnItemClickCallback {

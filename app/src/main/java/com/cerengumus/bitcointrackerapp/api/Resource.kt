@@ -20,8 +20,3 @@ sealed class Resource<out R> {
         }
     }
 }
-
-val Resource<*>.succeeded
-    get() = this is Resource.Success && data != null
-
-//suspend fun <T> Resource(networkCall: suspend () -> Resource<T>): Resource<T> = networkCall.invoke()

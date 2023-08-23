@@ -6,14 +6,10 @@ import android.view.View
 import androidx.appcompat.widget.Toolbar
 import com.cerengumus.bitcointrackerapp.R
 
-//Interface to update the toolbar with the activity
 interface NavigationHost {
     fun registerToolbarWithNavigation(toolbar: Toolbar)
 }
 
-/**
- * [MainNavigationFragment] registers the toolbar from the fragment with the activity
- */
 abstract class MainNavigationFragment : BaseFragment() {
 
     private var navigationHost: NavigationHost? = null

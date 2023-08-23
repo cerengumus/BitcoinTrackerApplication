@@ -74,13 +74,7 @@ class MainFragment : MainNavigationFragment(), OnItemClickCallback {
 
     override fun onItemClick(symbol: String, id: String) {
         requireActivity().run {
-            /*startActivity(
-                Intent(this, ProjectProfileActivity::class.java)
-                    .apply {
-                        putExtra(Constants.EXTRA_SYMBOL, symbol)
-                        putExtra(Constants.EXTRA_SYMBOL_ID, id)
-                    }
-            )*/
+            /* TODO: CEREN GUMUS */
         }
 
     }
