@@ -1,5 +1,6 @@
 package com.cerengumus.bitcointrackerapp.adapters
 
+import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -7,10 +8,13 @@ import com.cerengumus.bitcointrackerapp.R
 import com.cerengumus.bitcointrackerapp.data.local.database.CoinsListEntity
 import com.cerengumus.bitcointrackerapp.databinding.CoinItemBinding
 import com.cerengumus.bitcointrackerapp.util.UIHelper
+import com.cerengumus.bitcointrackerapp.utils.COLOR_PALETE
 import com.cerengumus.bitcointrackerapp.utils.ImageLoader
 import com.cerengumus.bitcointrackerapp.utils.dollarString
 import com.cerengumus.bitcointrackerapp.utils.emptyIfNull
 import kotlin.collections.ArrayList
+import kotlin.random.Random
+
 
 interface OnItemClickCallback {
     fun onItemClick(symbol: String, id: String)
@@ -46,6 +50,8 @@ class CoinsListAdapter(private val onItemClickCallback: OnItemClickCallback) :
     ) : RecyclerView.ViewHolder(binding.root) {
 
         fun bind(model: CoinsListEntity, onItemClickCallback: OnItemClickCallback) {
+            var color = Color.argb(COLOR_PALETE, Random.nextInt(COLOR_PALETE), Random.nextInt(COLOR_PALETE), Random.nextInt(COLOR_PALETE))
+            binding.coinsItemCardView.setCardBackgroundColor(color)
             binding.coinsItemSymbolTextView.text = model.symbol
             binding.coinsItemNameTextView.text = model.name.emptyIfNull()
             binding.coinsItemPriceTextView.text = model.price.dollarString()

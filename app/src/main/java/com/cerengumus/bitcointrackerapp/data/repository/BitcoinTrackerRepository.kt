@@ -1,14 +1,12 @@
 package com.cerengumus.bitcointrackerapp.data.repository
 
 import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import com.cerengumus.bitcointrackerapp.api.ApiInterface
 import com.cerengumus.bitcointrackerapp.api.Resource
 import com.cerengumus.bitcointrackerapp.data.local.database.CoinsListDao
 import com.cerengumus.bitcointrackerapp.data.local.database.CoinsListEntity
 import com.cerengumus.bitcointrackerapp.utils.GENERIC_ERROR
 import retrofit2.Response
-import java.util.*
 
 class BitcoinTrackerRepository(
     private val apiInterface: ApiInterface,
@@ -65,17 +63,6 @@ class BitcoinTrackerRepository(
         return result?.let { item ->
             Resource.Success(item)
         } ?: Resource.Error(GENERIC_ERROR)
-    }
-    fun temp(): LiveData<List<CoinsListEntity>> {
-        val _favouriteStock = MutableLiveData<List<CoinsListEntity>>()
-        var tempList: List<CoinsListEntity> = listOf()
-        for (i in 10 downTo 0){
-            tempList += CoinsListEntity("","{@i}","coin",3.4,3.4,"",false)
-        }
-        tempList.let {
-            _favouriteStock.value = it
-        }
-        return _favouriteStock
     }
 
     suspend fun <T> getResult(call: suspend () -> Response<T>): Resource<T> {
