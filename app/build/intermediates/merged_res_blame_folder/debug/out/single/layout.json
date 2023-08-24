@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.cerengumus.bitcointrackerapp-mergeDebugResources-63:/layout/activity_splash_screen.xml",
+        "source": "com.cerengumus.bitcointrackerapp-main-66:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.cerengumus.bitcointrackerapp-mergeDebugResources-63:/layout/fragment_main.xml",
+        "source": "com.cerengumus.bitcointrackerapp-main-66:/layout/fragment_main.xml"
+    },
+    {
+        "merged": "com.cerengumus.bitcointrackerapp-mergeDebugResources-63:/layout/coin_item.xml",
+        "source": "com.cerengumus.bitcointrackerapp-main-66:/layout/coin_item.xml"
+    },
+    {
+        "merged": "com.cerengumus.bitcointrackerapp-mergeDebugResources-63:/layout/activity_login_screen.xml",
+        "source": "com.cerengumus.bitcointrackerapp-main-66:/layout/activity_login_screen.xml"
+    },
+    {
+        "merged": "com.cerengumus.bitcointrackerapp-mergeDebugResources-63:/layout/fragment_favourite_screen.xml",
+        "source": "com.cerengumus.bitcointrackerapp-main-66:/layout/fragment_favourite_screen.xml"
+    },
+    {
+        "merged": "com.cerengumus.bitcointrackerapp-mergeDebugResources-63:/layout/activity_main.xml",
+        "source": "com.cerengumus.bitcointrackerapp-main-66:/layout/activity_main.xml"
+    }
+]

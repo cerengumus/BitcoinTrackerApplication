@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="card_view_background">#ffffff</color>
+    <color name="default_text_color">#000000</color>
+    <color name="red">#ff0000</color>
+    <color name="splash_background">#FF3700B3</color>
+    <color name="subtitle_text_color">#616161</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="window_background">#616161</color>
+    <dimen name="cardview_elevation">10dp</dimen>
+    <dimen name="cardview_image_height">50dp</dimen>
+    <dimen name="cardview_image_width">50dp</dimen>
+    <dimen name="cardview_margin">10dp</dimen>
+    <dimen name="cardview_padding">10dp</dimen>
+    <dimen name="cardview_radius">5dp</dimen>
+    <dimen name="default_bottom_margin">5dp</dimen>
+    <dimen name="default_start_margin">15dp</dimen>
+    <dimen name="default_text_size">14sp</dimen>
+    <dimen name="default_top_margin">5dp</dimen>
+    <dimen name="half_grid_size">4dp</dimen>
+    <dimen name="heading2_text_size">22sp</dimen>
+    <dimen name="heading3_text_size">18sp</dimen>
+    <dimen name="heading_text_size">26sp</dimen>
+    <dimen name="image_icon_size">24dp</dimen>
+    <dimen name="large_start_margin">20dp</dimen>
+    <dimen name="small_margin">2dp</dimen>
+    <dimen name="splash_text_size">30dp</dimen>
+    <dimen name="toolbar_text_size">24sp</dimen>
+    <string name="added_to_favourite">%1$s added to favourite</string>
+    <string name="all_coins">All Coins</string>
+    <string name="app_name">BitcoinTrackerApp</string>
+    <string name="default_web_client_id" translatable="false">984826870390-rsqifn50ook063fa223loj0lb5iekkvg.apps.googleusercontent.com</string>
+    <string name="favourites">Favourites</string>
+    <string name="gcm_defaultSenderId" translatable="false">984826870390</string>
+    <string name="google_api_key" translatable="false">AIzaSyAt0kWBpis_QgZHRdTeGtyLHCIddyiUINM</string>
+    <string name="google_app_id" translatable="false">1:984826870390:android:c6d3906e7deed4c8d63d57</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAt0kWBpis_QgZHRdTeGtyLHCIddyiUINM</string>
+    <string name="google_storage_bucket" translatable="false">bitcointrackerapp-9e828.appspot.com</string>
+    <string name="no_coins_available">no coins avaiable</string>
+    <string name="no_favourites">You have not set any favourites</string>
+    <string name="project_id" translatable="false">bitcointrackerapp-9e828</string>
+    <string name="removed_to_favourite">%1$s removed from favourite</string>
+    <style name="AppTheme.PopupTheme" parent="ThemeOverlay.MaterialComponents.Light"/>
+    <style name="TextAppearance.Custom.BottomNav" parent="@style/TextAppearance.MaterialComponents.Caption">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.Custom.Default" parent="@style/TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">@dimen/default_text_size</item>
+        <item name="android:textColor">@color/default_text_color</item>
+    </style>
+    <style name="TextAppearance.Custom.H1" parent="@style/TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">@dimen/heading_text_size</item>
+        <item name="android:textColor">@color/default_text_color</item>
+    </style>
+    <style name="TextAppearance.Custom.H2" parent="@style/TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textSize">@dimen/heading2_text_size</item>
+        <item name="android:textColor">@color/default_text_color</item>
+    </style>
+    <style name="TextAppearance.Custom.H2.Bold" parent="@style/TextAppearance.Custom.H2">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.Custom.H3" parent="@style/TextAppearance.MaterialComponents.Headline3">
+        <item name="android:textSize">@dimen/heading3_text_size</item>
+        <item name="android:textColor">@color/default_text_color</item>
+    </style>
+    <style name="TextAppearance.Custom.Toolbar" parent="@style/TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">@dimen/toolbar_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Widget.Custom.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:paddingEnd">8dp</item>
+        <item name="contentInsetStart">16dp</item>
+        <item name="contentInsetStartWithNavigation">64dp</item>
+        <item name="android:popupTheme">@style/AppTheme.PopupTheme</item>
+        <item name="titleTextAppearance">@style/TextAppearance.Custom.Toolbar</item>
+        <item name="android:textColorSecondary">@color/default_text_color</item>
+    </style>
+</resources>

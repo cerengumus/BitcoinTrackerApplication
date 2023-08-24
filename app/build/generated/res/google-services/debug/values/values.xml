@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">984826870390-rsqifn50ook063fa223loj0lb5iekkvg.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">984826870390</string>
+    <string name="google_api_key" translatable="false">AIzaSyAt0kWBpis_QgZHRdTeGtyLHCIddyiUINM</string>
+    <string name="google_app_id" translatable="false">1:984826870390:android:c6d3906e7deed4c8d63d57</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAt0kWBpis_QgZHRdTeGtyLHCIddyiUINM</string>
+    <string name="google_storage_bucket" translatable="false">bitcointrackerapp-9e828.appspot.com</string>
+    <string name="project_id" translatable="false">bitcointrackerapp-9e828</string>
+</resources>

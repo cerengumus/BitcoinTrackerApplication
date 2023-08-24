@@ -1,0 +1,714 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:2:1-32:12
+MERGED from [androidx.databinding:databinding-adapters:7.3.1] /Users/cerengumus/.gradle/caches/transforms-3/8105bb4f7409edbf883d6097ffc9c223/transformed/databinding-adapters-7.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.databinding:databinding-ktx:7.3.1] /Users/cerengumus/.gradle/caches/transforms-3/e3caa16002cc60085058750c1deed806/transformed/databinding-ktx-7.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.databinding:databinding-runtime:7.3.1] /Users/cerengumus/.gradle/caches/transforms-3/eea2f2a86695ebf976a4c750f1d24f07/transformed/databinding-runtime-7.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/cerengumus/.gradle/caches/transforms-3/ce562fa85c2b7f7e24d455401772df7b/transformed/viewbinding-7.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.room:room-ktx:2.5.1] /Users/cerengumus/.gradle/caches/transforms-3/f5a28fe41a655838d4d31b747af9a9f7/transformed/room-ktx-2.5.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-ktx:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/cea988e253fa91f81d98fdf681881635/transformed/firebase-auth-ktx-22.1.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/d6e9e451f8c396fed3c2c609884da295/transformed/firebase-firestore-ktx-24.7.0/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.1] /Users/cerengumus/.gradle/caches/transforms-3/10dc5b0ec0a3f64b6855580aac5bf773/transformed/firebase-common-ktx-20.3.1/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/cerengumus/.gradle/caches/transforms-3/cc0ef0993d96df2b7cabb9a14996c8bc/transformed/recaptcha-18.1.2/AndroidManifest.xml:2:1-10:12
+MERGED from [io.insert-koin:koin-android:3.4.0] /Users/cerengumus/.gradle/caches/transforms-3/1bd3ac4be54f9b8d03a8f4651e603781/transformed/koin-android-3.4.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/7c6952477df1d49a98969158c18c1242/transformed/navigation-fragment-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/b415feb5d9f213f595ccb1e28368dce2/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.5.7] /Users/cerengumus/.gradle/caches/transforms-3/4f286c0a93a7395fee6d930e592e6d9d/transformed/fragment-ktx-1.5.7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/0440ce9322fe924606a2f2cad5e7731b/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/9b6199927965b5e0867172e31284a5f2/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/c51d3cc71574bc240aeeabf6d141f1bb/transformed/navigation-ui-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/244351e728bb78fdf0ae0a89a97f2a7f/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/1197e59a3a9fec71131f879f7e4ff605/transformed/material-1.9.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/cerengumus/.gradle/caches/transforms-3/9a25e6ba3af9f79e736172ef98a72300/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/cerengumus/.gradle/caches/transforms-3/ecee124cf6d57b18ff9e84d6ed8b50c7/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/cerengumus/.gradle/caches/transforms-3/ae3e0582f62eaca62c7992da0d30771a/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/cerengumus/.gradle/caches/transforms-3/0b2f13fbea8cabd5c6653927ac3ca8df/transformed/play-services-auth-20.6.0/AndroidManifest.xml:17:1-40:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/908a91e02d9c62dc4ff6c76d6096a764/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/cerengumus/.gradle/caches/transforms-3/b24758dd4d5fab0478c5705a4d700856/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/cerengumus/.gradle/caches/transforms-3/d8473499522c2c5cd29e415cd9dbd53e/transformed/glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/07535bb14fd082970eec41f9eac87ac9/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/cerengumus/.gradle/caches/transforms-3/fae0ba910aca3df2ace6fa2c52c52728/transformed/play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/cerengumus/.gradle/caches/transforms-3/056b89dc667ca8e15de10e192b9303f9/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/cerengumus/.gradle/caches/transforms-3/514402520593c57ff14c2aa0e645074e/transformed/play-services-fido-20.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/8cb2cf7f706c21e7e1490e3dc990266e/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/cerengumus/.gradle/caches/transforms-3/2fd5c61726eb65373591da43ec1d3f89/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/cerengumus/.gradle/caches/transforms-3/646e36164385fc26dc6805c8b61f7174/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/cerengumus/.gradle/caches/transforms-3/adae3cb71e20df04d3d7439dea5b00f7/transformed/play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/cerengumus/.gradle/caches/transforms-3/958ac6aea8b2c6f06a4aacc1acf0dd18/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/cerengumus/.gradle/caches/transforms-3/777c43b8e114c01b31f77fe5ff90ef8a/transformed/firebase-common-20.3.2/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/cerengumus/.gradle/caches/transforms-3/43df8aa991715e3555ed4e800a2250e6/transformed/integrity-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/cerengumus/.gradle/caches/transforms-3/c876d6a353e25f0d1d188851584f621e/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/cerengumus/.gradle/caches/transforms-3/e1c3e7f5e2108ea8bf8ac13d1a1d6e71/transformed/play-services-basement-18.2.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.5.7] /Users/cerengumus/.gradle/caches/transforms-3/e9317e30c37ee4d815446fcf8163de69/transformed/fragment-1.5.7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.1] /Users/cerengumus/.gradle/caches/transforms-3/93d3001e8814335d05a5a9c5ace53d3d/transformed/activity-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.6.1] /Users/cerengumus/.gradle/caches/transforms-3/41a6f325638fe3df2d235295c4916083/transformed/activity-ktx-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/2935667f9ca78079553dd921a1f18f31/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/1b5740b798985316a80a6066435f4120/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/5b5259b7c8196ee1a387b0db69adb816/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/a79bc669cd701ffda86bc9d5474f6bfb/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/21143f8c1114a52635ee852bf3325dd0/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/3bf998f13d49cb5c1f7b3b2d20bbfdc0/transformed/navigation-common-2.5.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/87495ccaba56e85fff593b700e741858/transformed/savedstate-ktx-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/2e8c78d98e04fcf3ac04c02b7dfd73fe/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/4373b48854ffc6361aa02c58e247706b/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/cerengumus/.gradle/caches/transforms-3/162266db63ab3d4133c18384b1ab4531/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/cerengumus/.gradle/caches/transforms-3/dcdcf7c17d637485da2cdad7014917d6/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/cerengumus/.gradle/caches/transforms-3/25e93c0ea94528b1ca9d1ed48a49408f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/cerengumus/.gradle/caches/transforms-3/043aca45c6c56fc10719fca3fafdd5eb/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/1589a2ea07199a267182e1c150139261/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/d4d2a65db3cb4011f0e1be8ca9159b79/transformed/core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/cerengumus/.gradle/caches/transforms-3/78dac905ddd8f5ec3a3a67e70cb78a28/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/4e0822e67250e8dee06f0a018dbd6cee/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/3b7dfcb27d7c4cd169db444810f19b23/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/cerengumus/.gradle/caches/transforms-3/ef5eed11792b613c162e9c01612c2e21/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/cerengumus/.gradle/caches/transforms-3/a4bfcc38fe9ce1a037857f618f40cf5c/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/41fb15232df70d65d3963a252b28858c/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/b8ce0a7c4f0d4fad390c9241b2dd3140/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/cerengumus/.gradle/caches/transforms-3/f1631f3158e0e92bf416bde4f509c184/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/f4de467c1f3ae90f339f5c5b2fd4ca81/transformed/window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/8f4a2b3452d34503d0776de6f4dd1409/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/92668d9a5ba558b0184f5a576b39e2ec/transformed/lifecycle-service-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/38ce704ea6cc0c9fae75d23936d53a57/transformed/lifecycle-runtime-ktx-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/37e9dfda61f6e67a4ec92ae5d08d919a/transformed/lifecycle-runtime-2.6.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/3b557671cc3636c5632b113e25a17c28/transformed/lifecycle-process-2.6.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/950ca62da636288e26aad601bb93d9af/transformed/lifecycle-livedata-core-ktx-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/5a4b237c2779af2328bcec406fc6b152/transformed/lifecycle-livedata-core-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/92ae2a82f12a58fcd80ee461916377ef/transformed/lifecycle-livedata-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/6ee62747bc9e1f6491b3d83f915e9095/transformed/lifecycle-viewmodel-savedstate-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/ad24638bf5f3e868e591c02723aaa6b8/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/e7d9cdc8016c7d9714d9efd4c3cd6464/transformed/lifecycle-viewmodel-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/7cf3b0aeaed1fb8f6d5814ad30c31611/transformed/lifecycle-viewmodel-ktx-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/06cf4e60c2f0b549acd4d7ff73156a32/transformed/lifecycle-livedata-ktx-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.5.1] /Users/cerengumus/.gradle/caches/transforms-3/d29a9d1f82fe8d76c77d4386d38a7b36/transformed/room-runtime-2.5.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/7d4398f4ba75cbd4991b530341de80e7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/9cfd180e2e94040d7f21e174475b5d8e/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/cerengumus/.gradle/caches/transforms-3/11252e69e4a18848f04503220d916ca3/transformed/firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] /Users/cerengumus/.gradle/caches/transforms-3/9e2b6a10d3a9e2d91b6bccdbad53d43c/transformed/sqlite-framework-2.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.3.1] /Users/cerengumus/.gradle/caches/transforms-3/c4cc7dfae81f426def5c51bf2f6ea5e3/transformed/sqlite-2.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/cerengumus/.gradle/caches/transforms-3/36ad6eb16281177173727ec90654eca7/transformed/gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/f22390d7b70a132ab5673c8ee7293369/transformed/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/cerengumus/.gradle/caches/transforms-3/bc676af615260a9c1c9af5683980f5f7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:17:1-50:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/cerengumus/.gradle/caches/transforms-3/c5513b6a46323891f3374f4fac5d2a17/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/a159a70ddee3b4debd9547d6faafe0f5/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/db63b19e90c13bafa01e32a074d2f90d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/56a581e6588307787d3a37cbfcf99606/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/908a04d759e85c542deb70df807009ef/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/942448303225d0c68edfe2b7fdeef36f/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/cerengumus/.gradle/caches/transforms-3/788aecd3b20fdca381414720a7f05615/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/344c804664fbc95f401fa79e661e7d94/transformed/volley-1.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.jakewharton.timber:timber:5.0.1] /Users/cerengumus/.gradle/caches/transforms-3/66a45d1adaeb592ab3453c9047fe5080/transformed/timber-5.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/cerengumus/.gradle/caches/transforms-3/83fb492d72faeaae075f893cfe7d304d/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/cerengumus/.gradle/caches/transforms-3/ea235ee62bc5cd327cb8511ebf60572c/transformed/grpc-android-1.52.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/cerengumus/.gradle/caches/transforms-3/6f2ad94d98bea5f83614ddc9a70c8066/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:2:1-32:12
+	package
+		INJECTED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:2:1-32:12
+		INJECTED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/cerengumus/.gradle/caches/transforms-3/cc0ef0993d96df2b7cabb9a14996c8bc/transformed/recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/cerengumus/.gradle/caches/transforms-3/cc0ef0993d96df2b7cabb9a14996c8bc/transformed/recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/8cb2cf7f706c21e7e1490e3dc990266e/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/8cb2cf7f706c21e7e1490e3dc990266e/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:12:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/cerengumus/.gradle/caches/transforms-3/ea235ee62bc5cd327cb8511ebf60572c/transformed/grpc-android-1.52.1/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/cerengumus/.gradle/caches/transforms-3/ea235ee62bc5cd327cb8511ebf60572c/transformed/grpc-android-1.52.1/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/cerengumus/.gradle/caches/transforms-3/cc0ef0993d96df2b7cabb9a14996c8bc/transformed/recaptcha-18.1.2/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/cerengumus/.gradle/caches/transforms-3/cc0ef0993d96df2b7cabb9a14996c8bc/transformed/recaptcha-18.1.2/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/8cb2cf7f706c21e7e1490e3dc990266e/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/8cb2cf7f706c21e7e1490e3dc990266e/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:6:22-64
+application
+ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:8:5-30:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/cea988e253fa91f81d98fdf681881635/transformed/firebase-auth-ktx-22.1.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/cea988e253fa91f81d98fdf681881635/transformed/firebase-auth-ktx-22.1.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/d6e9e451f8c396fed3c2c609884da295/transformed/firebase-firestore-ktx-24.7.0/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/d6e9e451f8c396fed3c2c609884da295/transformed/firebase-firestore-ktx-24.7.0/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.1] /Users/cerengumus/.gradle/caches/transforms-3/10dc5b0ec0a3f64b6855580aac5bf773/transformed/firebase-common-ktx-20.3.1/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.1] /Users/cerengumus/.gradle/caches/transforms-3/10dc5b0ec0a3f64b6855580aac5bf773/transformed/firebase-common-ktx-20.3.1/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:28:5-73:19
+MERGED from [io.insert-koin:koin-android:3.4.0] /Users/cerengumus/.gradle/caches/transforms-3/1bd3ac4be54f9b8d03a8f4651e603781/transformed/koin-android-3.4.0/AndroidManifest.xml:9:5-20
+MERGED from [io.insert-koin:koin-android:3.4.0] /Users/cerengumus/.gradle/caches/transforms-3/1bd3ac4be54f9b8d03a8f4651e603781/transformed/koin-android-3.4.0/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/1197e59a3a9fec71131f879f7e4ff605/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/1197e59a3a9fec71131f879f7e4ff605/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/cerengumus/.gradle/caches/transforms-3/9a25e6ba3af9f79e736172ef98a72300/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/cerengumus/.gradle/caches/transforms-3/9a25e6ba3af9f79e736172ef98a72300/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/cerengumus/.gradle/caches/transforms-3/0b2f13fbea8cabd5c6653927ac3ca8df/transformed/play-services-auth-20.6.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/cerengumus/.gradle/caches/transforms-3/0b2f13fbea8cabd5c6653927ac3ca8df/transformed/play-services-auth-20.6.0/AndroidManifest.xml:22:5-38:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/cerengumus/.gradle/caches/transforms-3/b24758dd4d5fab0478c5705a4d700856/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/cerengumus/.gradle/caches/transforms-3/b24758dd4d5fab0478c5705a4d700856/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/cerengumus/.gradle/caches/transforms-3/d8473499522c2c5cd29e415cd9dbd53e/transformed/glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/cerengumus/.gradle/caches/transforms-3/d8473499522c2c5cd29e415cd9dbd53e/transformed/glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/cerengumus/.gradle/caches/transforms-3/514402520593c57ff14c2aa0e645074e/transformed/play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/cerengumus/.gradle/caches/transforms-3/514402520593c57ff14c2aa0e645074e/transformed/play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/8cb2cf7f706c21e7e1490e3dc990266e/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/8cb2cf7f706c21e7e1490e3dc990266e/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/cerengumus/.gradle/caches/transforms-3/2fd5c61726eb65373591da43ec1d3f89/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/cerengumus/.gradle/caches/transforms-3/2fd5c61726eb65373591da43ec1d3f89/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/cerengumus/.gradle/caches/transforms-3/adae3cb71e20df04d3d7439dea5b00f7/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/cerengumus/.gradle/caches/transforms-3/adae3cb71e20df04d3d7439dea5b00f7/transformed/play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/cerengumus/.gradle/caches/transforms-3/958ac6aea8b2c6f06a4aacc1acf0dd18/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/cerengumus/.gradle/caches/transforms-3/958ac6aea8b2c6f06a4aacc1acf0dd18/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/cerengumus/.gradle/caches/transforms-3/777c43b8e114c01b31f77fe5ff90ef8a/transformed/firebase-common-20.3.2/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/cerengumus/.gradle/caches/transforms-3/777c43b8e114c01b31f77fe5ff90ef8a/transformed/firebase-common-20.3.2/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/cerengumus/.gradle/caches/transforms-3/43df8aa991715e3555ed4e800a2250e6/transformed/integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/cerengumus/.gradle/caches/transforms-3/43df8aa991715e3555ed4e800a2250e6/transformed/integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/cerengumus/.gradle/caches/transforms-3/c876d6a353e25f0d1d188851584f621e/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/cerengumus/.gradle/caches/transforms-3/c876d6a353e25f0d1d188851584f621e/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/cerengumus/.gradle/caches/transforms-3/e1c3e7f5e2108ea8bf8ac13d1a1d6e71/transformed/play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/cerengumus/.gradle/caches/transforms-3/e1c3e7f5e2108ea8bf8ac13d1a1d6e71/transformed/play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/4373b48854ffc6361aa02c58e247706b/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/4373b48854ffc6361aa02c58e247706b/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/f4de467c1f3ae90f339f5c5b2fd4ca81/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/f4de467c1f3ae90f339f5c5b2fd4ca81/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/8f4a2b3452d34503d0776de6f4dd1409/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/8f4a2b3452d34503d0776de6f4dd1409/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/3b557671cc3636c5632b113e25a17c28/transformed/lifecycle-process-2.6.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/3b557671cc3636c5632b113e25a17c28/transformed/lifecycle-process-2.6.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.room:room-runtime:2.5.1] /Users/cerengumus/.gradle/caches/transforms-3/d29a9d1f82fe8d76c77d4386d38a7b36/transformed/room-runtime-2.5.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.5.1] /Users/cerengumus/.gradle/caches/transforms-3/d29a9d1f82fe8d76c77d4386d38a7b36/transformed/room-runtime-2.5.1/AndroidManifest.xml:23:5-29:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/cerengumus/.gradle/caches/transforms-3/36ad6eb16281177173727ec90654eca7/transformed/gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/cerengumus/.gradle/caches/transforms-3/36ad6eb16281177173727ec90654eca7/transformed/gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/cerengumus/.gradle/caches/transforms-3/bc676af615260a9c1c9af5683980f5f7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/cerengumus/.gradle/caches/transforms-3/bc676af615260a9c1c9af5683980f5f7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:24:5-48:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:24:5-48:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/cerengumus/.gradle/caches/transforms-3/c5513b6a46323891f3374f4fac5d2a17/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/cerengumus/.gradle/caches/transforms-3/c5513b6a46323891f3374f4fac5d2a17/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [com.jakewharton.timber:timber:5.0.1] /Users/cerengumus/.gradle/caches/transforms-3/66a45d1adaeb592ab3453c9047fe5080/transformed/timber-5.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:5.0.1] /Users/cerengumus/.gradle/caches/transforms-3/66a45d1adaeb592ab3453c9047fe5080/transformed/timber-5.0.1/AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/8f4a2b3452d34503d0776de6f4dd1409/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:12:9-41
+	tools:ignore
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:16:9-35
+	android:roundIcon
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:15:9-56
+	android:name
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:9:9-42
+activity#com.cerengumus.bitcointrackerapp.ui.login.LoginScreenActivity
+ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:17:9-66
+	android:name
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:17:19-63
+activity#com.cerengumus.bitcointrackerapp.ui.splash.SplashScreenActivity
+ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:18:9-26:20
+	android:exported
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:20:13-36
+	android:name
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:19:13-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:24:27-74
+activity#com.cerengumus.bitcointrackerapp.ui.MainScreenActivity
+ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:27:9-29:59
+	android:windowSoftInputMode
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:29:13-56
+	android:name
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml:28:13-50
+uses-sdk
+INJECTED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:7.3.1] /Users/cerengumus/.gradle/caches/transforms-3/8105bb4f7409edbf883d6097ffc9c223/transformed/databinding-adapters-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-adapters:7.3.1] /Users/cerengumus/.gradle/caches/transforms-3/8105bb4f7409edbf883d6097ffc9c223/transformed/databinding-adapters-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-ktx:7.3.1] /Users/cerengumus/.gradle/caches/transforms-3/e3caa16002cc60085058750c1deed806/transformed/databinding-ktx-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-ktx:7.3.1] /Users/cerengumus/.gradle/caches/transforms-3/e3caa16002cc60085058750c1deed806/transformed/databinding-ktx-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-runtime:7.3.1] /Users/cerengumus/.gradle/caches/transforms-3/eea2f2a86695ebf976a4c750f1d24f07/transformed/databinding-runtime-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:databinding-runtime:7.3.1] /Users/cerengumus/.gradle/caches/transforms-3/eea2f2a86695ebf976a4c750f1d24f07/transformed/databinding-runtime-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/cerengumus/.gradle/caches/transforms-3/ce562fa85c2b7f7e24d455401772df7b/transformed/viewbinding-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:7.3.1] /Users/cerengumus/.gradle/caches/transforms-3/ce562fa85c2b7f7e24d455401772df7b/transformed/viewbinding-7.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.room:room-ktx:2.5.1] /Users/cerengumus/.gradle/caches/transforms-3/f5a28fe41a655838d4d31b747af9a9f7/transformed/room-ktx-2.5.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.5.1] /Users/cerengumus/.gradle/caches/transforms-3/f5a28fe41a655838d4d31b747af9a9f7/transformed/room-ktx-2.5.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/cea988e253fa91f81d98fdf681881635/transformed/firebase-auth-ktx-22.1.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/cea988e253fa91f81d98fdf681881635/transformed/firebase-auth-ktx-22.1.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/d6e9e451f8c396fed3c2c609884da295/transformed/firebase-firestore-ktx-24.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/d6e9e451f8c396fed3c2c609884da295/transformed/firebase-firestore-ktx-24.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.1] /Users/cerengumus/.gradle/caches/transforms-3/10dc5b0ec0a3f64b6855580aac5bf773/transformed/firebase-common-ktx-20.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.1] /Users/cerengumus/.gradle/caches/transforms-3/10dc5b0ec0a3f64b6855580aac5bf773/transformed/firebase-common-ktx-20.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/cerengumus/.gradle/caches/transforms-3/cc0ef0993d96df2b7cabb9a14996c8bc/transformed/recaptcha-18.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/cerengumus/.gradle/caches/transforms-3/cc0ef0993d96df2b7cabb9a14996c8bc/transformed/recaptcha-18.1.2/AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-android:3.4.0] /Users/cerengumus/.gradle/caches/transforms-3/1bd3ac4be54f9b8d03a8f4651e603781/transformed/koin-android-3.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [io.insert-koin:koin-android:3.4.0] /Users/cerengumus/.gradle/caches/transforms-3/1bd3ac4be54f9b8d03a8f4651e603781/transformed/koin-android-3.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/7c6952477df1d49a98969158c18c1242/transformed/navigation-fragment-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/7c6952477df1d49a98969158c18c1242/transformed/navigation-fragment-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/b415feb5d9f213f595ccb1e28368dce2/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/b415feb5d9f213f595ccb1e28368dce2/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.7] /Users/cerengumus/.gradle/caches/transforms-3/4f286c0a93a7395fee6d930e592e6d9d/transformed/fragment-ktx-1.5.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.7] /Users/cerengumus/.gradle/caches/transforms-3/4f286c0a93a7395fee6d930e592e6d9d/transformed/fragment-ktx-1.5.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/0440ce9322fe924606a2f2cad5e7731b/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/0440ce9322fe924606a2f2cad5e7731b/transformed/navigation-ui-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/9b6199927965b5e0867172e31284a5f2/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/9b6199927965b5e0867172e31284a5f2/transformed/navigation-runtime-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/c51d3cc71574bc240aeeabf6d141f1bb/transformed/navigation-ui-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/c51d3cc71574bc240aeeabf6d141f1bb/transformed/navigation-ui-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/244351e728bb78fdf0ae0a89a97f2a7f/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/244351e728bb78fdf0ae0a89a97f2a7f/transformed/navigation-runtime-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/1197e59a3a9fec71131f879f7e4ff605/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/1197e59a3a9fec71131f879f7e4ff605/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/cerengumus/.gradle/caches/transforms-3/9a25e6ba3af9f79e736172ef98a72300/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/cerengumus/.gradle/caches/transforms-3/9a25e6ba3af9f79e736172ef98a72300/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/cerengumus/.gradle/caches/transforms-3/ecee124cf6d57b18ff9e84d6ed8b50c7/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/cerengumus/.gradle/caches/transforms-3/ecee124cf6d57b18ff9e84d6ed8b50c7/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/cerengumus/.gradle/caches/transforms-3/ae3e0582f62eaca62c7992da0d30771a/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/cerengumus/.gradle/caches/transforms-3/ae3e0582f62eaca62c7992da0d30771a/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/cerengumus/.gradle/caches/transforms-3/0b2f13fbea8cabd5c6653927ac3ca8df/transformed/play-services-auth-20.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/cerengumus/.gradle/caches/transforms-3/0b2f13fbea8cabd5c6653927ac3ca8df/transformed/play-services-auth-20.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/908a91e02d9c62dc4ff6c76d6096a764/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/908a91e02d9c62dc4ff6c76d6096a764/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/cerengumus/.gradle/caches/transforms-3/b24758dd4d5fab0478c5705a4d700856/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/cerengumus/.gradle/caches/transforms-3/b24758dd4d5fab0478c5705a4d700856/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/cerengumus/.gradle/caches/transforms-3/d8473499522c2c5cd29e415cd9dbd53e/transformed/glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/cerengumus/.gradle/caches/transforms-3/d8473499522c2c5cd29e415cd9dbd53e/transformed/glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/07535bb14fd082970eec41f9eac87ac9/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/07535bb14fd082970eec41f9eac87ac9/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/cerengumus/.gradle/caches/transforms-3/fae0ba910aca3df2ace6fa2c52c52728/transformed/play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/cerengumus/.gradle/caches/transforms-3/fae0ba910aca3df2ace6fa2c52c52728/transformed/play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/cerengumus/.gradle/caches/transforms-3/056b89dc667ca8e15de10e192b9303f9/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/cerengumus/.gradle/caches/transforms-3/056b89dc667ca8e15de10e192b9303f9/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/cerengumus/.gradle/caches/transforms-3/514402520593c57ff14c2aa0e645074e/transformed/play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/cerengumus/.gradle/caches/transforms-3/514402520593c57ff14c2aa0e645074e/transformed/play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/8cb2cf7f706c21e7e1490e3dc990266e/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/8cb2cf7f706c21e7e1490e3dc990266e/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/cerengumus/.gradle/caches/transforms-3/2fd5c61726eb65373591da43ec1d3f89/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/cerengumus/.gradle/caches/transforms-3/2fd5c61726eb65373591da43ec1d3f89/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/cerengumus/.gradle/caches/transforms-3/646e36164385fc26dc6805c8b61f7174/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/cerengumus/.gradle/caches/transforms-3/646e36164385fc26dc6805c8b61f7174/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/cerengumus/.gradle/caches/transforms-3/adae3cb71e20df04d3d7439dea5b00f7/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/cerengumus/.gradle/caches/transforms-3/adae3cb71e20df04d3d7439dea5b00f7/transformed/play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/cerengumus/.gradle/caches/transforms-3/958ac6aea8b2c6f06a4aacc1acf0dd18/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/cerengumus/.gradle/caches/transforms-3/958ac6aea8b2c6f06a4aacc1acf0dd18/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/cerengumus/.gradle/caches/transforms-3/777c43b8e114c01b31f77fe5ff90ef8a/transformed/firebase-common-20.3.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/cerengumus/.gradle/caches/transforms-3/777c43b8e114c01b31f77fe5ff90ef8a/transformed/firebase-common-20.3.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/cerengumus/.gradle/caches/transforms-3/43df8aa991715e3555ed4e800a2250e6/transformed/integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/cerengumus/.gradle/caches/transforms-3/43df8aa991715e3555ed4e800a2250e6/transformed/integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/cerengumus/.gradle/caches/transforms-3/c876d6a353e25f0d1d188851584f621e/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/cerengumus/.gradle/caches/transforms-3/c876d6a353e25f0d1d188851584f621e/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/cerengumus/.gradle/caches/transforms-3/e1c3e7f5e2108ea8bf8ac13d1a1d6e71/transformed/play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/cerengumus/.gradle/caches/transforms-3/e1c3e7f5e2108ea8bf8ac13d1a1d6e71/transformed/play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.5.7] /Users/cerengumus/.gradle/caches/transforms-3/e9317e30c37ee4d815446fcf8163de69/transformed/fragment-1.5.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.7] /Users/cerengumus/.gradle/caches/transforms-3/e9317e30c37ee4d815446fcf8163de69/transformed/fragment-1.5.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.1] /Users/cerengumus/.gradle/caches/transforms-3/93d3001e8814335d05a5a9c5ace53d3d/transformed/activity-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.1] /Users/cerengumus/.gradle/caches/transforms-3/93d3001e8814335d05a5a9c5ace53d3d/transformed/activity-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.6.1] /Users/cerengumus/.gradle/caches/transforms-3/41a6f325638fe3df2d235295c4916083/transformed/activity-ktx-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.6.1] /Users/cerengumus/.gradle/caches/transforms-3/41a6f325638fe3df2d235295c4916083/transformed/activity-ktx-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/2935667f9ca78079553dd921a1f18f31/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/2935667f9ca78079553dd921a1f18f31/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/1b5740b798985316a80a6066435f4120/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/1b5740b798985316a80a6066435f4120/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/5b5259b7c8196ee1a387b0db69adb816/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/5b5259b7c8196ee1a387b0db69adb816/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/a79bc669cd701ffda86bc9d5474f6bfb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/a79bc669cd701ffda86bc9d5474f6bfb/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/21143f8c1114a52635ee852bf3325dd0/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/21143f8c1114a52635ee852bf3325dd0/transformed/navigation-common-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/3bf998f13d49cb5c1f7b3b2d20bbfdc0/transformed/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.3] /Users/cerengumus/.gradle/caches/transforms-3/3bf998f13d49cb5c1f7b3b2d20bbfdc0/transformed/navigation-common-2.5.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/87495ccaba56e85fff593b700e741858/transformed/savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/87495ccaba56e85fff593b700e741858/transformed/savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/2e8c78d98e04fcf3ac04c02b7dfd73fe/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/2e8c78d98e04fcf3ac04c02b7dfd73fe/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/4373b48854ffc6361aa02c58e247706b/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/4373b48854ffc6361aa02c58e247706b/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/cerengumus/.gradle/caches/transforms-3/162266db63ab3d4133c18384b1ab4531/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/cerengumus/.gradle/caches/transforms-3/162266db63ab3d4133c18384b1ab4531/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/cerengumus/.gradle/caches/transforms-3/dcdcf7c17d637485da2cdad7014917d6/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/cerengumus/.gradle/caches/transforms-3/dcdcf7c17d637485da2cdad7014917d6/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/cerengumus/.gradle/caches/transforms-3/25e93c0ea94528b1ca9d1ed48a49408f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/cerengumus/.gradle/caches/transforms-3/25e93c0ea94528b1ca9d1ed48a49408f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/cerengumus/.gradle/caches/transforms-3/043aca45c6c56fc10719fca3fafdd5eb/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/cerengumus/.gradle/caches/transforms-3/043aca45c6c56fc10719fca3fafdd5eb/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/1589a2ea07199a267182e1c150139261/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/1589a2ea07199a267182e1c150139261/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/d4d2a65db3cb4011f0e1be8ca9159b79/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/d4d2a65db3cb4011f0e1be8ca9159b79/transformed/core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/cerengumus/.gradle/caches/transforms-3/78dac905ddd8f5ec3a3a67e70cb78a28/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/cerengumus/.gradle/caches/transforms-3/78dac905ddd8f5ec3a3a67e70cb78a28/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/4e0822e67250e8dee06f0a018dbd6cee/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/4e0822e67250e8dee06f0a018dbd6cee/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/3b7dfcb27d7c4cd169db444810f19b23/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/3b7dfcb27d7c4cd169db444810f19b23/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/cerengumus/.gradle/caches/transforms-3/ef5eed11792b613c162e9c01612c2e21/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/cerengumus/.gradle/caches/transforms-3/ef5eed11792b613c162e9c01612c2e21/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/cerengumus/.gradle/caches/transforms-3/a4bfcc38fe9ce1a037857f618f40cf5c/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/cerengumus/.gradle/caches/transforms-3/a4bfcc38fe9ce1a037857f618f40cf5c/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/41fb15232df70d65d3963a252b28858c/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/41fb15232df70d65d3963a252b28858c/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/b8ce0a7c4f0d4fad390c9241b2dd3140/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/b8ce0a7c4f0d4fad390c9241b2dd3140/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.4.1] /Users/cerengumus/.gradle/caches/transforms-3/f1631f3158e0e92bf416bde4f509c184/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/cerengumus/.gradle/caches/transforms-3/f1631f3158e0e92bf416bde4f509c184/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/f4de467c1f3ae90f339f5c5b2fd4ca81/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/f4de467c1f3ae90f339f5c5b2fd4ca81/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/8f4a2b3452d34503d0776de6f4dd1409/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/8f4a2b3452d34503d0776de6f4dd1409/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/92668d9a5ba558b0184f5a576b39e2ec/transformed/lifecycle-service-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/92668d9a5ba558b0184f5a576b39e2ec/transformed/lifecycle-service-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/38ce704ea6cc0c9fae75d23936d53a57/transformed/lifecycle-runtime-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/38ce704ea6cc0c9fae75d23936d53a57/transformed/lifecycle-runtime-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/37e9dfda61f6e67a4ec92ae5d08d919a/transformed/lifecycle-runtime-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/37e9dfda61f6e67a4ec92ae5d08d919a/transformed/lifecycle-runtime-2.6.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/3b557671cc3636c5632b113e25a17c28/transformed/lifecycle-process-2.6.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/3b557671cc3636c5632b113e25a17c28/transformed/lifecycle-process-2.6.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/950ca62da636288e26aad601bb93d9af/transformed/lifecycle-livedata-core-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/950ca62da636288e26aad601bb93d9af/transformed/lifecycle-livedata-core-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/5a4b237c2779af2328bcec406fc6b152/transformed/lifecycle-livedata-core-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/5a4b237c2779af2328bcec406fc6b152/transformed/lifecycle-livedata-core-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/92ae2a82f12a58fcd80ee461916377ef/transformed/lifecycle-livedata-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/92ae2a82f12a58fcd80ee461916377ef/transformed/lifecycle-livedata-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/6ee62747bc9e1f6491b3d83f915e9095/transformed/lifecycle-viewmodel-savedstate-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/6ee62747bc9e1f6491b3d83f915e9095/transformed/lifecycle-viewmodel-savedstate-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/ad24638bf5f3e868e591c02723aaa6b8/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/ad24638bf5f3e868e591c02723aaa6b8/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/e7d9cdc8016c7d9714d9efd4c3cd6464/transformed/lifecycle-viewmodel-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/e7d9cdc8016c7d9714d9efd4c3cd6464/transformed/lifecycle-viewmodel-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/7cf3b0aeaed1fb8f6d5814ad30c31611/transformed/lifecycle-viewmodel-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/7cf3b0aeaed1fb8f6d5814ad30c31611/transformed/lifecycle-viewmodel-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/06cf4e60c2f0b549acd4d7ff73156a32/transformed/lifecycle-livedata-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/06cf4e60c2f0b549acd4d7ff73156a32/transformed/lifecycle-livedata-ktx-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.5.1] /Users/cerengumus/.gradle/caches/transforms-3/d29a9d1f82fe8d76c77d4386d38a7b36/transformed/room-runtime-2.5.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.5.1] /Users/cerengumus/.gradle/caches/transforms-3/d29a9d1f82fe8d76c77d4386d38a7b36/transformed/room-runtime-2.5.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/7d4398f4ba75cbd4991b530341de80e7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/7d4398f4ba75cbd4991b530341de80e7/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/9cfd180e2e94040d7f21e174475b5d8e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/9cfd180e2e94040d7f21e174475b5d8e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/cerengumus/.gradle/caches/transforms-3/11252e69e4a18848f04503220d916ca3/transformed/firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/cerengumus/.gradle/caches/transforms-3/11252e69e4a18848f04503220d916ca3/transformed/firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] /Users/cerengumus/.gradle/caches/transforms-3/9e2b6a10d3a9e2d91b6bccdbad53d43c/transformed/sqlite-framework-2.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.3.1] /Users/cerengumus/.gradle/caches/transforms-3/9e2b6a10d3a9e2d91b6bccdbad53d43c/transformed/sqlite-framework-2.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] /Users/cerengumus/.gradle/caches/transforms-3/c4cc7dfae81f426def5c51bf2f6ea5e3/transformed/sqlite-2.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.3.1] /Users/cerengumus/.gradle/caches/transforms-3/c4cc7dfae81f426def5c51bf2f6ea5e3/transformed/sqlite-2.3.1/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/cerengumus/.gradle/caches/transforms-3/36ad6eb16281177173727ec90654eca7/transformed/gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/cerengumus/.gradle/caches/transforms-3/36ad6eb16281177173727ec90654eca7/transformed/gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/f22390d7b70a132ab5673c8ee7293369/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/f22390d7b70a132ab5673c8ee7293369/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/cerengumus/.gradle/caches/transforms-3/bc676af615260a9c1c9af5683980f5f7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/cerengumus/.gradle/caches/transforms-3/bc676af615260a9c1c9af5683980f5f7/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:21:5-22:38
+MERGED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:21:5-22:38
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/cerengumus/.gradle/caches/transforms-3/c5513b6a46323891f3374f4fac5d2a17/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/cerengumus/.gradle/caches/transforms-3/c5513b6a46323891f3374f4fac5d2a17/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/a159a70ddee3b4debd9547d6faafe0f5/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/a159a70ddee3b4debd9547d6faafe0f5/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/db63b19e90c13bafa01e32a074d2f90d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/db63b19e90c13bafa01e32a074d2f90d/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/56a581e6588307787d3a37cbfcf99606/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/56a581e6588307787d3a37cbfcf99606/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/908a04d759e85c542deb70df807009ef/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/908a04d759e85c542deb70df807009ef/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/942448303225d0c68edfe2b7fdeef36f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/942448303225d0c68edfe2b7fdeef36f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/cerengumus/.gradle/caches/transforms-3/788aecd3b20fdca381414720a7f05615/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/cerengumus/.gradle/caches/transforms-3/788aecd3b20fdca381414720a7f05615/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/344c804664fbc95f401fa79e661e7d94/transformed/volley-1.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/344c804664fbc95f401fa79e661e7d94/transformed/volley-1.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:5.0.1] /Users/cerengumus/.gradle/caches/transforms-3/66a45d1adaeb592ab3453c9047fe5080/transformed/timber-5.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.timber:timber:5.0.1] /Users/cerengumus/.gradle/caches/transforms-3/66a45d1adaeb592ab3453c9047fe5080/transformed/timber-5.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/cerengumus/.gradle/caches/transforms-3/83fb492d72faeaae075f893cfe7d304d/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/cerengumus/.gradle/caches/transforms-3/83fb492d72faeaae075f893cfe7d304d/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/cerengumus/.gradle/caches/transforms-3/ea235ee62bc5cd327cb8511ebf60572c/transformed/grpc-android-1.52.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.52.1] /Users/cerengumus/.gradle/caches/transforms-3/ea235ee62bc5cd327cb8511ebf60572c/transformed/grpc-android-1.52.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/cerengumus/.gradle/caches/transforms-3/6f2ad94d98bea5f83614ddc9a70c8066/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/cerengumus/.gradle/caches/transforms-3/6f2ad94d98bea5f83614ddc9a70c8066/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:23:9-61
+	android:targetSdkVersion
+		INJECTED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/cerengumus/AndroidStudioProjects/BitcoinTrackerApp/app/src/main/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth-ktx:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/cea988e253fa91f81d98fdf681881635/transformed/firebase-auth-ktx-22.1.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/d6e9e451f8c396fed3c2c609884da295/transformed/firebase-firestore-ktx-24.7.0/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/d6e9e451f8c396fed3c2c609884da295/transformed/firebase-firestore-ktx-24.7.0/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.1] /Users/cerengumus/.gradle/caches/transforms-3/10dc5b0ec0a3f64b6855580aac5bf773/transformed/firebase-common-ktx-20.3.1/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.3.1] /Users/cerengumus/.gradle/caches/transforms-3/10dc5b0ec0a3f64b6855580aac5bf773/transformed/firebase-common-ktx-20.3.1/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/8cb2cf7f706c21e7e1490e3dc990266e/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/8cb2cf7f706c21e7e1490e3dc990266e/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/cerengumus/.gradle/caches/transforms-3/777c43b8e114c01b31f77fe5ff90ef8a/transformed/firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/cerengumus/.gradle/caches/transforms-3/777c43b8e114c01b31f77fe5ff90ef8a/transformed/firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/cea988e253fa91f81d98fdf681881635/transformed/firebase-auth-ktx-22.1.1/AndroidManifest.xml:10:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/cerengumus/.gradle/caches/transforms-3/777c43b8e114c01b31f77fe5ff90ef8a/transformed/firebase-common-20.3.2/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/cerengumus/.gradle/caches/transforms-3/777c43b8e114c01b31f77fe5ff90ef8a/transformed/firebase-common-20.3.2/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/cea988e253fa91f81d98fdf681881635/transformed/firebase-auth-ktx-22.1.1/AndroidManifest.xml:9:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar
+ADDED from [com.google.firebase:firebase-auth-ktx:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/cea988e253fa91f81d98fdf681881635/transformed/firebase-auth-ktx-22.1.1/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/cea988e253fa91f81d98fdf681881635/transformed/firebase-auth-ktx-22.1.1/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/cea988e253fa91f81d98fdf681881635/transformed/firebase-auth-ktx-22.1.1/AndroidManifest.xml:12:17-116
+meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore-ktx:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/d6e9e451f8c396fed3c2c609884da295/transformed/firebase-firestore-ktx-24.7.0/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/d6e9e451f8c396fed3c2c609884da295/transformed/firebase-firestore-ktx-24.7.0/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/d6e9e451f8c396fed3c2c609884da295/transformed/firebase-firestore-ktx-24.7.0/AndroidManifest.xml:15:17-126
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.3.1] /Users/cerengumus/.gradle/caches/transforms-3/10dc5b0ec0a3f64b6855580aac5bf773/transformed/firebase-common-ktx-20.3.1/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.3.1] /Users/cerengumus/.gradle/caches/transforms-3/10dc5b0ec0a3f64b6855580aac5bf773/transformed/firebase-common-ktx-20.3.1/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.3.1] /Users/cerengumus/.gradle/caches/transforms-3/10dc5b0ec0a3f64b6855580aac5bf773/transformed/firebase-common-ktx-20.3.1/AndroidManifest.xml:15:17-113
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/cerengumus/.gradle/caches/transforms-3/8d63589e9bc6c29b2edbcf4950e2985b/transformed/firebase-auth-22.1.1/AndroidManifest.xml:70:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/cerengumus/.gradle/caches/transforms-3/0b2f13fbea8cabd5c6653927ac3ca8df/transformed/play-services-auth-20.6.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/cerengumus/.gradle/caches/transforms-3/0b2f13fbea8cabd5c6653927ac3ca8df/transformed/play-services-auth-20.6.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/cerengumus/.gradle/caches/transforms-3/0b2f13fbea8cabd5c6653927ac3ca8df/transformed/play-services-auth-20.6.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/cerengumus/.gradle/caches/transforms-3/0b2f13fbea8cabd5c6653927ac3ca8df/transformed/play-services-auth-20.6.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/cerengumus/.gradle/caches/transforms-3/0b2f13fbea8cabd5c6653927ac3ca8df/transformed/play-services-auth-20.6.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/cerengumus/.gradle/caches/transforms-3/0b2f13fbea8cabd5c6653927ac3ca8df/transformed/play-services-auth-20.6.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/cerengumus/.gradle/caches/transforms-3/0b2f13fbea8cabd5c6653927ac3ca8df/transformed/play-services-auth-20.6.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/cerengumus/.gradle/caches/transforms-3/0b2f13fbea8cabd5c6653927ac3ca8df/transformed/play-services-auth-20.6.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/cerengumus/.gradle/caches/transforms-3/0b2f13fbea8cabd5c6653927ac3ca8df/transformed/play-services-auth-20.6.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/cerengumus/.gradle/caches/transforms-3/0b2f13fbea8cabd5c6653927ac3ca8df/transformed/play-services-auth-20.6.0/AndroidManifest.xml:34:13-89
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/8cb2cf7f706c21e7e1490e3dc990266e/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:19:13-21:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/8cb2cf7f706c21e7e1490e3dc990266e/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:21:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.7.0] /Users/cerengumus/.gradle/caches/transforms-3/8cb2cf7f706c21e7e1490e3dc990266e/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:20:17-111
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/cerengumus/.gradle/caches/transforms-3/adae3cb71e20df04d3d7439dea5b00f7/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/cerengumus/.gradle/caches/transforms-3/adae3cb71e20df04d3d7439dea5b00f7/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/cerengumus/.gradle/caches/transforms-3/adae3cb71e20df04d3d7439dea5b00f7/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/cerengumus/.gradle/caches/transforms-3/adae3cb71e20df04d3d7439dea5b00f7/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/cerengumus/.gradle/caches/transforms-3/777c43b8e114c01b31f77fe5ff90ef8a/transformed/firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/cerengumus/.gradle/caches/transforms-3/777c43b8e114c01b31f77fe5ff90ef8a/transformed/firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/cerengumus/.gradle/caches/transforms-3/777c43b8e114c01b31f77fe5ff90ef8a/transformed/firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/cerengumus/.gradle/caches/transforms-3/777c43b8e114c01b31f77fe5ff90ef8a/transformed/firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/cerengumus/.gradle/caches/transforms-3/777c43b8e114c01b31f77fe5ff90ef8a/transformed/firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/cerengumus/.gradle/caches/transforms-3/777c43b8e114c01b31f77fe5ff90ef8a/transformed/firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/cerengumus/.gradle/caches/transforms-3/e1c3e7f5e2108ea8bf8ac13d1a1d6e71/transformed/play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/cerengumus/.gradle/caches/transforms-3/e1c3e7f5e2108ea8bf8ac13d1a1d6e71/transformed/play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/cerengumus/.gradle/caches/transforms-3/e1c3e7f5e2108ea8bf8ac13d1a1d6e71/transformed/play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/4373b48854ffc6361aa02c58e247706b/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/3b557671cc3636c5632b113e25a17c28/transformed/lifecycle-process-2.6.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/3b557671cc3636c5632b113e25a17c28/transformed/lifecycle-process-2.6.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:25:9-33:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:25:9-33:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/cerengumus/.gradle/caches/transforms-3/c5513b6a46323891f3374f4fac5d2a17/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/cerengumus/.gradle/caches/transforms-3/c5513b6a46323891f3374f4fac5d2a17/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/4373b48854ffc6361aa02c58e247706b/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/4373b48854ffc6361aa02c58e247706b/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/4373b48854ffc6361aa02c58e247706b/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/4373b48854ffc6361aa02c58e247706b/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/4373b48854ffc6361aa02c58e247706b/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/4373b48854ffc6361aa02c58e247706b/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/cerengumus/.gradle/caches/transforms-3/4373b48854ffc6361aa02c58e247706b/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/f4de467c1f3ae90f339f5c5b2fd4ca81/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/f4de467c1f3ae90f339f5c5b2fd4ca81/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/f4de467c1f3ae90f339f5c5b2fd4ca81/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/f4de467c1f3ae90f339f5c5b2fd4ca81/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/f4de467c1f3ae90f339f5c5b2fd4ca81/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/cerengumus/.gradle/caches/transforms-3/f4de467c1f3ae90f339f5c5b2fd4ca81/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/8f4a2b3452d34503d0776de6f4dd1409/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/8f4a2b3452d34503d0776de6f4dd1409/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/8f4a2b3452d34503d0776de6f4dd1409/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.cerengumus.bitcointrackerapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/8f4a2b3452d34503d0776de6f4dd1409/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/8f4a2b3452d34503d0776de6f4dd1409/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/8f4a2b3452d34503d0776de6f4dd1409/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/8f4a2b3452d34503d0776de6f4dd1409/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/8f4a2b3452d34503d0776de6f4dd1409/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.cerengumus.bitcointrackerapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/8f4a2b3452d34503d0776de6f4dd1409/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/cerengumus/.gradle/caches/transforms-3/8f4a2b3452d34503d0776de6f4dd1409/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/3b557671cc3636c5632b113e25a17c28/transformed/lifecycle-process-2.6.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/3b557671cc3636c5632b113e25a17c28/transformed/lifecycle-process-2.6.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.0] /Users/cerengumus/.gradle/caches/transforms-3/3b557671cc3636c5632b113e25a17c28/transformed/lifecycle-process-2.6.0/AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.5.1] /Users/cerengumus/.gradle/caches/transforms-3/d29a9d1f82fe8d76c77d4386d38a7b36/transformed/room-runtime-2.5.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.5.1] /Users/cerengumus/.gradle/caches/transforms-3/d29a9d1f82fe8d76c77d4386d38a7b36/transformed/room-runtime-2.5.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.5.1] /Users/cerengumus/.gradle/caches/transforms-3/d29a9d1f82fe8d76c77d4386d38a7b36/transformed/room-runtime-2.5.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.5.1] /Users/cerengumus/.gradle/caches/transforms-3/d29a9d1f82fe8d76c77d4386d38a7b36/transformed/room-runtime-2.5.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.5.1] /Users/cerengumus/.gradle/caches/transforms-3/d29a9d1f82fe8d76c77d4386d38a7b36/transformed/room-runtime-2.5.1/AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:30:13-32:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:32:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:31:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:35:9-47:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:38:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:40:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:37:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:36:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:41:13-43:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:42:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:42:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:44:13-46:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:45:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.2.1] /Users/cerengumus/.gradle/caches/transforms-3/36dd60005f06bff226c0d733af218594/transformed/profileinstaller-1.2.1/AndroidManifest.xml:45:25-82

@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cerengumus.bitcointrackerapp-mergeDebugResources-62:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/cerengumus/.gradle/caches/transforms-3/ae3e0582f62eaca62c7992da0d30771a/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/cerengumus/.gradle/caches/transforms-3/8f4a2b3452d34503d0776de6f4dd1409/transformed/core-1.9.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

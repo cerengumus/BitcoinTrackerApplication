@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/font_bebas_neue_thin.ttf.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/font/bebas_neue_thin.ttf"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/drawable-xxhdpi_ic_prefeex_new_trans.png.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-pngs-59:/drawable-xxhdpi/ic_prefeex_new_trans.png"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/anim_slide_up.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/anim/slide_up.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/anim_fade_in.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/anim/fade_in.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/font_bebas_neue_regular.ttf.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/font/bebas_neue_regular.ttf"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/drawable-v24_ic_monetization.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/drawable-v24/ic_monetization.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/color_green.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/color/green.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/navigation_nav_graph.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/menu_navigation_selector.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/menu/navigation_selector.xml"
+    },
+    {
+        "merged": "com.cerengumus.bitcointrackerapp-merged_res-64:/drawable_ic_baseline_favorite_border_24.xml.flat",
+        "source": "com.cerengumus.bitcointrackerapp-main-66:/drawable/ic_baseline_favorite_border_24.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/font_best.otf.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/font/best.otf"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/drawable_ic_baseline_image_24.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/drawable/ic_baseline_image_24.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/drawable_ic_baseline_arrow_upward_24.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/drawable/ic_baseline_arrow_upward_24.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/layout_activity_splash_screen.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/drawable_ic_baseline_favorite_border_24.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/drawable/ic_baseline_favorite_border_24.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/drawable-xxxhdpi_ic_prefeex_new_trans.png.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-pngs-59:/drawable-xxxhdpi/ic_prefeex_new_trans.png"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/layout_coin_item.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/layout/coin_item.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/anim_zoom_out_fast.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/anim/zoom_out_fast.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/font_bebas_neue_bold.ttf.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/font/bebas_neue_bold.ttf"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/font_mallent_regular.ttf.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/font/mallent_regular.ttf"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/layout_activity_login_screen.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/layout/activity_login_screen.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/drawable-mdpi_ic_prefeex_new_trans.png.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-pngs-59:/drawable-mdpi/ic_prefeex_new_trans.png"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/drawable-hdpi_ic_prefeex_new_trans.png.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-pngs-59:/drawable-hdpi/ic_prefeex_new_trans.png"
+    },
+    {
+        "merged": "com.cerengumus.bitcointrackerapp-merged_res-64:/drawable_ic_baseline_favorite_24.xml.flat",
+        "source": "com.cerengumus.bitcointrackerapp-main-66:/drawable/ic_baseline_favorite_24.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/layout_activity_main.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/anim_no_animaiton.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/anim/no_animaiton.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/drawable-anydpi-v24_ic_prefeex_new_trans.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-pngs-59:/drawable-anydpi-v24/ic_prefeex_new_trans.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/anim_rotate.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/anim/rotate.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/drawable-ldpi_ic_prefeex_new_trans.png.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-pngs-59:/drawable-ldpi/ic_prefeex_new_trans.png"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/drawable_ic_baseline_view_list_24.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/drawable/ic_baseline_view_list_24.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/drawable-xhdpi_ic_prefeex_new_trans.png.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-pngs-59:/drawable-xhdpi/ic_prefeex_new_trans.png"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/drawable_ic_baseline_favorite_24.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/drawable/ic_baseline_favorite_24.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/anim_slide_down.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/anim/slide_down.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/layout_fragment_main.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/layout/fragment_main.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/drawable_ic_baseline_arrow_downward_24.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/drawable/ic_baseline_arrow_downward_24.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/layout_fragment_favourite_screen.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/layout/fragment_favourite_screen.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-pngs-59:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-merged_res-64:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/cerengumus/.gradle/daemon/7.4/com.cerengumus.bitcointrackerapp-main-66:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    }
+]
