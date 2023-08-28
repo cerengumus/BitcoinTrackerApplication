@@ -53,8 +53,8 @@ class LoginScreenActivity : AppCompatActivity() {
 
         binding.googleSignInButton.setOnClickListener {
             navigateToMainActivity()
-            //val intent = googleSignInClient.signInIntent
-            //startActivityForResult(intent, GOOGLE_LOGIN)
+            val intent = googleSignInClient.signInIntent
+            startActivityForResult(intent, GOOGLE_LOGIN)
         }
     }
 
